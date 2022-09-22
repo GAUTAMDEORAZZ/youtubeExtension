@@ -1,0 +1,83 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+
+}
+#container>div{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+#container>div>img{
+    width: 100%;
+    height: 200px;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#navbar>div{
+    margin-top: 8px;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+}
+#search{
+    width: 100%;
+    height: 20px;
+    padding: auto;
+   
+
+
+}
+#search>#query{
+    width: 80%;
+   
+    border: 0px;
+    
+}
+#search>input{
+    /* border: 1px solid black */
+}
+
+#btn{
+    margin-top: 5px;
+    
+}
+
+#navbar2{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#navbar2>div{
+   border-radius: 20px;
+   padding: 10px 40px 10px 40px;
+   font-weight: bold;
+   background-color: rgb(223, 221, 221);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar2>div:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar>img:nth-child(4){
+    height: 30px;
+    width: 2%;
+    margin-top: 10px;
+}
